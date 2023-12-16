@@ -106,7 +106,7 @@ function sortByWord(key){
     if(projects.length==0)return;
     //console.log(projects);
     //console.log(key);
-    projects.sort((a,b)=>a[key]>b[key]? 1:-1);
+    projects.sort((a,b)=>a[key].trim()>b[key].trim()? 1:-1);
     renderAfterSorting(projects);
 }
 
