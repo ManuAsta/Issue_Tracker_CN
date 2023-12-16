@@ -1,7 +1,9 @@
+/**loading dotenv */
+const dotenv=require('dotenv').config();
 /**express js modules */
 const express = require('express')
 const app = express();
-const port=  8000;
+const port=  process.env.PORT || 8000;
 /**styling module node sass middleware */
 const expressLayouts= require('express-ejs-layouts'); /**Express ejs layouts */
 const sassMiddleware = require('node-sass-middleware');/**for scss styling*/
