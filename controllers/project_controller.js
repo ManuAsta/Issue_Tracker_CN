@@ -46,7 +46,7 @@ module.exports.createIssue=async function(req,res){
         //update the project
         project.save();
         if(req.xhr){
-            console.log("Xhr request");
+          //  console.log("Xhr request");
             return res.status(200).json({
                 data:{
                     issue:issue,

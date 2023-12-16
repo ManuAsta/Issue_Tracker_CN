@@ -21,7 +21,7 @@ module.exports.home=async function(req,res){
 
 
 module.exports.createProject=async function(req,res){
-    console.log(req.body);
+    //console.log(req.body);
     try{
         let project=await Project.create({
             title:req.body.title,
