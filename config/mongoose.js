@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
-
-
+// const url="mongodb://127.0.0.1:27017/issue-tracker-db";
+const uri="mongodb+srv://asta_manu:mlsnothim%40h1M@clustermanu.zdqvp8j.mongodb.net/?retryWrites=true&w=majority";
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/issue-tracker-db');
+  await mongoose.connect(uri);
+  
 }
 
 main()
