@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
- const url="mongodb://127.0.0.1:27017/issue-tracker-db";
-//const uri= process.env.MONGO_URI;
+//  const url="mongodb://127.0.0.1:27017/issue-tracker-db";
+const uri= process.env.MONGO_URI;
 async function main() {
-  await mongoose.connect(url);
+  await mongoose.connect(uri);
   
 }
 
