@@ -18,7 +18,7 @@
     </div>
     <!--passing the projects as an attribute to the projects list-->
     <div id="project-list" data-projects="<%=JSON.stringify(locals.projects)%>">
-        <%if(locals.project && locals.projects.length>0){%>
+        <%if(locals.projects && locals.projects.length>0){%>
             <!--Using a for loop to iterate over projects-->
             <%for(project of projects){%>
                  <%-include('partials/_project-item')-%>

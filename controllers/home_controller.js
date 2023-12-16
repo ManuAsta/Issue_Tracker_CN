@@ -5,7 +5,7 @@ module.exports.home=async function(req,res){
 
     try{
         let projects=await Project.find().sort('-createdAt');
-        //console.log(projects);
+        //console.log("projects are "+projects);
         return res.render('../views/home',{
             title:"Issue Tracker Home",
             projects:projects
