@@ -27,4 +27,5 @@ Approach:
 4) using mongodb for storing these schemas
 5) when the page loads, get the documents i.e projects/issues through data-attribute 
 6) store the projects or issues list as an array on the front end, so that we can do sorting or filtering without the page  being reloaded
-7) styles using node sass middleware
+7) styles using node sass middleware and bootstrap
+8) for adding an issue or project, used offCanvas from bootstrap and for displaying the project-item or issue-item, used bootstrap cards
