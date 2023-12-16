@@ -29,3 +29,4 @@ Approach:
 6) store the projects or issues list as an array on the front end, so that we can do sorting or filtering without the page  being reloaded
 7) styles using node sass middleware and bootstrap
 8) for adding an issue or project, used offCanvas from bootstrap and for displaying the project-item or issue-item, used bootstrap cards
+9) Used Noty JS for showing the notifications
